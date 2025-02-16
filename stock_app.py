@@ -30,7 +30,7 @@ stock_data = st.session_state.stock_data
 # 🔎 Debugging: Display available columns
 st.write("Available Columns:", stock_data.columns)
 
-# 📝 Show Data
+# 🗒 Show Data
 st.subheader(f"📊 {ticker_symbol} Stock Data (Last 5 Days)")
 st.write(stock_data.tail())
 
