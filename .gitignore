@@ -1,5 +1,19 @@
+# Ignore virtual environments
+.venv/
 venv/
 __pycache__/
-venv/
-__pycache__/
-.env
+
+# Ignore system files
+.DS_Store
+
+# Ignore data and model files
+*.csv
+*.pkl
+*.h5
+*.zip
+*.tar.gz
+*.sqlite
+*.db
+
+# Streamlit & cache
+.streamlit/
