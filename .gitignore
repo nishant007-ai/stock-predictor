@@ -1,28 +1,25 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.ipynb
+
+# Mac system files
+.DS_Store
 
 # Virtual environments
-venv/
 .venv/
+venv/
 env/
+*.env
 
-# Large files
+# IDE files
+.idea/
+.vscode/
+
+# Data and models (if any)
 *.csv
-*.pkl
 *.h5
-*.zip
-*.tar.gz
-*.db
-*.mp4
-*.png
-*.jpg
-
-# Streamlit
-.streamlit/
-
-# macOS system files
-.DS_Store
+*.pkl
+data/
+models/
