@@ -1,18 +1,28 @@
-# Ignore Python cache and virtual envs
+# Python
 __pycache__/
 *.pyc
-.venv/
+*.pyo
+*.pyd
+*.ipynb
+
+# Virtual environments
 venv/
+.venv/
 env/
 
-# Ignore large files and data
+# Large files
 *.csv
 *.pkl
 *.h5
 *.zip
 *.tar.gz
 *.db
+*.mp4
+*.png
+*.jpg
 
-# Streamlit & system files
+# Streamlit
 .streamlit/
+
+# macOS system files
 .DS_Store
