@@ -1,25 +1,15 @@
-# Python cache
+venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Mac system files
 .DS_Store
-
-# Virtual environments
-.venv/
-venv/
-env/
-*.env
-
-# IDE files
-.idea/
-.vscode/
-
-# Data and models (if any)
+*.log
+*.png
+*.jpg
+*.jpeg
+*.zip
 *.csv
-*.h5
-*.pkl
-data/
-models/
+*.pdf
+venv/
+__pycache__/
+*.pyc
+.DS_Store
